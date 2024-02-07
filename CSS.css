@@ -1,0 +1,135 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: algerian,courier;
+    letter-spacing: 0.1em;
+    font-size: 30px;
+    animation: eeee 1s linear infinite;
+}
+@keyframes eeee{
+    75%{
+        background: linear-gradient(to right,cyan,plum);
+        color: transparent;
+        background-clip: text;
+    }
+    25%{
+        background: linear-gradient(to left,rgb(179, 1, 179),violet);
+        color: transparent;
+        background-clip: text;
+    }
+}
+.navbar{
+    min-height: 80px;
+    position: sticky;
+    top: 0%;
+    z-index: 2;
+}
+.collapse li{
+    margin-right: 50px;
+    cursor: pointer;
+    font-size: 20px;
+}
+body{
+    background-color: rgba(213, 214, 214, 0.904)
+}
+/* h1{
+    text-align: center;
+    font-family: algerian,courier;
+    height: 100px;
+    padding: 30px;
+    font-size: 60px;
+    word-spacing: 0.5em;
+    letter-spacing: 0.1em;
+    animation:  ani 1s linear infinite;
+}
+@keyframes ani{
+    60%{
+        background: linear-gradient(to right,cyan,rgb(182, 2, 182),violet);
+        color: transparent;
+        background-clip: text;
+    }
+    40%{
+        text-shadow: 10px 10px 8px plum;
+    }
+} */
+h1{
+    font-family: algerian,courier;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    justify-content: center;
+    color: black;
+    font-weight: bolder;
+    animation: ani 2s linear infinite;
+}
+@keyframes ani{
+    25%{
+        text-shadow: 0px 7px 12px aquamarine;
+        color: blanchedalmond;
+    }
+    35%{
+        text-shadow: 7px 0px 12px violet;
+        color: cadetblue;
+    }
+    20%{
+        text-shadow: 0px -15px 12px aliceblue;
+        color: darkseagreen;
+    }
+    10%{
+        text-shadow: -15px 0px 12px thistle;
+        color: darkslategray;
+    }
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 3em;
+    row-gap: 2em;
+    height: 450px;
+    margin-top: 30px;
+}
+.card{
+    padding: 50px;
+    background-image: url(download\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position: center;
+    box-shadow: inset 0px 0px 100px rgb(102, 102, 102) ;
+
+}
+.card:hover{
+    box-shadow: 0px 0px 50px black;
+}
+.card:active{
+    box-shadow:  0px 0px 50px rgb(102, 102, 102) ;
+    background: linear-gradient(to right,rgb(1, 224, 224),rgba(172, 2, 172, 0.459),violet);
+    transform: scaleX(1);
+}
+.card button:hover{
+    background-color: lightblue;
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    height: 650px;
+}
+.last button:hover{
+    animation:  geo 1s;
+}
+@keyframes geo{
+    100%{
+        rotate: 360deg;
+    }
+}
+.btn{
+    animation-duration: 2s;
+}

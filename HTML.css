@@ -1,0 +1,113 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: algerian,courier;
+    letter-spacing: 0.1em;
+    font-size: 30px;
+    animation: eeee 1s linear infinite;
+}
+@keyframes eeee{
+    75%{
+        background: linear-gradient(to right,cyan,plum);
+        color: transparent;
+        background-clip: text;
+    }
+    25%{
+        background: linear-gradient(to left,rgb(179, 1, 179),violet);
+        color: transparent;
+        background-clip: text;
+    }
+}
+.navbar{
+    min-height: 80px;
+    position: sticky;
+    top: 0%;
+    z-index: 2;
+}
+.collapse li{
+    margin-right: 50px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 3em;
+    row-gap: 2em;
+    height: 450px;
+    margin-top: 30px;
+}
+h1{
+    font-family: algerian,courier;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    justify-content: center;
+    color: black;
+    font-weight: bolder;
+    animation: ani 2s linear infinite;
+}
+@keyframes ani{
+    25%{
+        text-shadow: 0px 7px 12px aquamarine;
+        color: blanchedalmond;
+    }
+    35%{
+        text-shadow: 7px 0px 12px violet;
+        color: cadetblue;
+    }
+    20%{
+        text-shadow: 0px -15px 12px aliceblue;
+        color: darkseagreen;
+    }
+    10%{
+        text-shadow: -15px 0px 12px thistle;
+        color: darkslategray;
+    }
+}
+.card{
+    padding: 50px;
+    background-image: url(download.png);
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position: center;
+}
+.card:hover{
+    box-shadow: 0px 0px 20px black;
+}
+.card button:hover{
+    background-color: black;
+}
+.one button:hover{
+    animation: new 1s ;
+}
+@keyframes new {
+    100%{
+        rotate: 360deg;
+    }
+}
+.two button:hover{
+    animation: new 1s ;
+}
+@keyframes new {
+    100%{
+        rotate: 360deg;
+    }
+}
+.gom{
+    align-items: end;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+.btn{
+    animation-duration: 2s;
+}
