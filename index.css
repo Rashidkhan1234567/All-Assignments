@@ -1,0 +1,135 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: rashid;
+    src: url(angilla-tattoo.zip);
+    font-weight: 700;
+}
+@font-face {
+    font-family: rashid-1;
+    src: url(remachine-script.zip);
+}
+.navbar-brand{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: algerian,courier;
+    letter-spacing: 0.1em;
+    font-size: 30px;
+    animation: ani 1s linear infinite;
+}
+@keyframes ani{
+    75%{
+        background: linear-gradient(to right,cyan,plum);
+        color: transparent;
+        background-clip: text;
+    }
+    25%{
+        background: linear-gradient(to left,rgb(179, 1, 179),violet);
+        color: transparent;
+        background-clip: text;
+    }
+}
+.navbar{
+    min-height: 80px;
+    position: sticky;
+    top: 0%;
+    z-index: 2;
+}
+.collapse li{
+    margin-right: 50px;
+    cursor: pointer;
+    font-size: 20px;
+}
+body{
+    background-color: black;
+}
+.card-all{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: 100px;
+    /* row-gap: 20px; */
+    min-height: 800px;
+}
+.card-header{
+    font-size: 2em;
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-family: rashid-1;
+}
+.card{
+    background-color: #ebeaea;
+    box-shadow: 25px 30px 10px gray;
+}
+.card .btn{
+    font-size: 25px;
+    font-weight: 600;
+    width: 400px;
+    margin: 15px;
+}
+.card:hover{
+    width: 35rem;
+    height: 19rem;
+}
+.foot>footer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    justify-content: space-evenly;
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 100px;
+}
+.foot h2{
+    color: rgb(250, 60, 60);
+    margin-top: 40px;
+    font-family: Algerian,courier;
+    margin-bottom: 50px;
+    letter-spacing: 1px;
+}
+.foot>footer>.part-2>ul>li{
+    list-style-type: none;
+    font-size: 18px;
+    font-family: arial;
+    color: gray;
+}
+.foot>footer>.part-3>ul>li{
+    list-style-type: none;
+    font-size: 18px;
+    font-family: arial;
+    color: gray;
+    padding-top:5px ;
+}
+.foot>footer>.part-3>ul>li>i{
+    font-size: 18px;
+}
+.foot>footer>.part-3>ul>li:nth-child(1){
+    padding-top: 0px;
+}
+.foot>footer>.part-4>h2{
+    margin-bottom: 15px;
+}
+.foot>footer>.part-4>i{
+    font-size: 30px;
+    padding: 5px;
+    margin: 8px;
+}
+.buttom{
+    background-color: darkgray;
+    height: 2px;
+    width: 1280px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.boom{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: white;
+}

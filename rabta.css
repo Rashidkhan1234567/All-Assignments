@@ -1,0 +1,172 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: rashid;
+    src: url(fonts/angilla-tattoo.zip);
+    font-weight: 700;
+}
+@font-face {
+    font-family: rashid-1;
+    src: url(fonts/remachine-script.zip);
+}
+body{
+    background-color: black;
+}
+.navbar-brand{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: algerian,courier;
+    letter-spacing: 0.1em;
+    font-size: 30px;
+    animation: ani 1s linear infinite;
+}
+@keyframes ani{
+    75%{
+        background: linear-gradient(to right,cyan,plum);
+        color: transparent;
+        background-clip: text;
+    }
+    25%{
+        background: linear-gradient(to left,rgb(179, 1, 179),violet);
+        color: transparent;
+        background-clip: text;
+    }
+}
+.navbar{
+    min-height: 80px;
+    position: sticky;
+    top: 0%;
+    z-index: 2;
+}
+.collapse li{
+    margin-right: 50px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.contanier-fluid{
+    display: flex;
+    justify-content: center;
+    min-height: 600px;
+    align-items: center;
+    /* text-align: center; */
+}
+.contanier-fluid form{
+    background-color: wheat;
+    padding: 20px;
+    border: 5px solid blueviolet;
+    padding-right: 50px;
+    text-align: center;
+    border-radius: 10px;
+    animation: wen 1s linear infinite;
+}
+@keyframes wen {
+    75%{
+        border: 5px dotted aquamarine;
+    }
+    25%{
+        border: 5px dashed darkturquoise;
+    }
+}
+.contanier-fluid h2{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-bottom: 30px;
+    font-size: 40px;
+    font-weight: 700;
+}
+.contanier-fluid h2::first-letter{
+    font-size: 80px;
+    color: rgb(58, 204, 189);
+    font-family: 'Times New Roman', Times, serif;
+}
+span{
+    color: royalblue;
+}
+span::first-letter{
+    font-size: 80px;
+}
+.contanier-fluid input{
+    width: 250px;
+    margin-bottom: 15px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 5px 5px 2px 2px ;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+}
+.contanier-fluid textarea{
+    padding: 10px;
+    border-radius: 5px 5px 2px 2px ;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+}
+.hi{
+    color: black;
+}
+.contanier-fluid button{
+    width: 230px;
+    margin-top: 25px;
+}
+.foot>footer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    justify-content: space-evenly;
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 100px;
+}
+.foot h2{
+    color: rgb(250, 60, 60);
+    margin-top: 40px;
+    font-family: Algerian,courier;
+    margin-bottom: 50px;
+    letter-spacing: 1px;
+}
+.foot>footer>.part-2>ul>li{
+    list-style-type: none;
+    font-size: 18px;
+    font-family: arial;
+    color: gray;
+}
+.foot>footer>.part-3>ul>li{
+    list-style-type: none;
+    font-size: 18px;
+    font-family: arial;
+    color: gray;
+    padding-top:5px ;
+}
+.foot>footer>.part-3>ul>li>i{
+    font-size: 18px;
+}
+.foot>footer>.part-3>ul>li:nth-child(1){
+    padding-top: 0px;
+}
+.foot>footer>.part-4>h2{
+    margin-bottom: 15px;
+}
+.foot>footer>.part-4>i{
+    font-size: 30px;
+    padding: 5px;
+    margin: 8px;
+}
+.buttom{
+    background-color: darkgray;
+    height: 2px;
+    width: 1280px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.boom{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: white;
+}
